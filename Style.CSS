@@ -1,0 +1,18 @@
+#main {
+    position: relative;
+    width: 90%;
+    height: 70%;
+    background-image: url(https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: 10%;
+    background-size: cover;
+}
+
+#main #small-photo {
+    position: absolute;
+    bottom: 10%; /* Adjust this as needed */
+    right: 10%;  /* Adjust this as needed */
+    width: 30px; /* Small image size */
+    height: 30px; /* You can adjust the height if necessary */
+    border-radius: 50%; /* Make it circular */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
